@@ -77,10 +77,10 @@ localStorage.setItem("listaCocteles", prodJson)
 
 
 const busqueda = () =>{
-    const cargaItem = document.getElementById("buscaCocteles")
-    cargaItem.addEventListener("button",(e)=>{
+    const buscar = document.getElementById("buscaCocteles")
+    buscar.addEventListener("submit",(e)=>{
         e.preventDefault()
-        const nombre = e.target.children["nombre"]
+        const nombre = e.target.children["nombre"].value
         obtenerIngredientes(nombre)
     })
 }
@@ -97,30 +97,16 @@ const obtenerIngredientes = (nombre)=> {
         const tarjeta = document.createElement("div")
         tarjeta.className = "tarjeta"
         tarjeta.innerHTML = `
-                            <div><img src="" alt=""></div>
+                            <div><img src="img/${coctel.srcImagen}.jpg" alt=""></div>
                             <div>
-                                <h2>Hola</h2>
-                                <p>Heri</p>
-                                <P>me amas?</P>
+                                <h2>${coctel.nombre}</h2>
+                                <p><b>Ingredientes</b> <br> ${coctel.ingredientes}</p>
+                                <p><b>Nivel de dificultad</b> <br> ${coctel.nivelDificultad}</p>
                             </div>
                             `
                             contenedorCocteles.append(tarjeta)
-        // alert("Los ingredientes del coctel " + coctel.nombre + " son: " + coctel.ingredientes)
     })
     
 }
-// function obtenerIngredientes(nombre){
-//     while(nombre != "salir"){
-//        let coctelesFiltrados = cocteles.filter(coctel => coctel.nombre.toLocaleLowerCase() == nombre)
-//        coctelesFiltrados.forEach(coctel =>{
-//             alert("Los ingredientes del coctel " + coctel.nombre + " son: " + coctel.ingredientes)
-//        })
-//        console.log(coctelesFiltrados)
-//        nombre = prompt("Ingresa el cóctel que deseas 'Tequila Sunrise, Mojito, Piña Colada, Daiquiri, Mai Tai, Blue Lagoon, Sex on the Beach, Caipirinha, Whiskey Sour, Cosmopolitan'").toLowerCase()
-//     }
-//     alert ("Programa finalizado")
-// }
-// let nombre = prompt("Ingresa el cóctel que deseas 'Tequila Sunrise, Mojito, Piña Colada, Daiquiri, Mai Tai, Blue Lagoon, Sex on the Beach, Caipirinha, Whiskey Sour, Cosmopolitan'").toLowerCase()
-// obtenerIngredientes(nombre)
 
 busqueda()
