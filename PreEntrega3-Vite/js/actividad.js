@@ -14,6 +14,13 @@ const iniCocteles = [
         srcImagen: "img_Mojito"
     },
     {
+        nombre: "Mojito",
+        nivelDificultad: "fácil",
+        alcohol: "ron blanco",
+        ingredientes: ["ron blanco", "menta fresca", "lima", "azúcar", "agua con gas", "frutos rojos"],
+        srcImagen: "img_MojitoFrutos"
+    },
+    {
         nombre: "Piña Colada",
         nivelDificultad: "fácil",
         alcohol: "ron blanco",
@@ -94,13 +101,17 @@ const obtenerIngredientes = (nombre)=> {
 
     let coctelesFiltrados = cocteles.filter(coctel => coctel.nombre.toLocaleLowerCase() == nombre)
     coctelesFiltrados.forEach(coctel => {
+        let listingredientes=""
+        coctel.ingredientes.forEach(ingrediente =>{
+            listingredientes += ingrediente + " <br>"}
+        )
         const tarjeta = document.createElement("div")
         tarjeta.className = "tarjeta"
         tarjeta.innerHTML = `
                             <div><img src="img/${coctel.srcImagen}.jpg" alt=""></div>
                             <div>
                                 <h2>${coctel.nombre}</h2>
-                                <p><b>Ingredientes</b> <br> ${coctel.ingredientes}</p>
+                                <p><b>Ingredientes</b> <br> ${listingredientes}</p>
                                 <p><b>Nivel de dificultad</b> <br> ${coctel.nivelDificultad}</p>
                             </div>
                             `
