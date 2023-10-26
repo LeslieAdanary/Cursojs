@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cátalogo cócteles</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Zeyada:300,400,600,700&amp;lang=en" />
+
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+    <section class="contesearch">
+        <div class="contlogo">
+            <img src="img/logo_coctail.png" alt="">
+        </div>
+        <div class="titsearch">
+            <h1>Ingresa tu cóctel o base deseada</h1>
+            <form id="buscaCocteles">
+                <input type="text" name="nombre">
+                <button type="submit" class="btnbuscar">Buscar</button>
+                <p class="ctaclear" onclick="obtenerIngredientes('')">Limpiar búsqueda</p>
+            </form>
+        </div>
+        <div class="optionejemplos">
+        <p class="select">Sunrise</p> 
+            <p class="select">Mojito</p>
+            <p class="select">Piña Colada</p>
+            <p class="select">Daiquiri</p>
+            <p class="select">Mai Tai</p> 
+            <p class="select">Blue Lagoon</p> 
+            <p class="select">Sex on the Beach</p> 
+            <p class="select">Caipirinha</p>
+            <p class="select">Whiskey Sour</p> 
+            <p class="select">Cosmopolitan</p>
+        </div>
+    </section>
+    <section id="contenedorCocteles">
+        <div class="containone">
+        </div>
+    </section>
+    <section id="notfound"></section>
+    <script src="js/actividad.js"></script>
+</body>
+</html>

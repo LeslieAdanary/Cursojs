@@ -1,0 +1,90 @@
+[
+    {
+        "nombre": "Sunrise",
+        "nivelDificultad": "&#10048 &#10048",
+        "alcohol": "tequila",
+        "ingredientes": ["1 ½ oz de tequila", "3/4 de jugo de naranja", "2 cucharadas de granadina", "cereza para decorar"],
+        "preparacion": "Combina en una coctelera o vaso para mezclar la mitad de los cubitos de hielo, el jugo de naranja y el tequila. Tápalo y agítalo bien. Sírvelo en un vaso largo o copa grande con el resto del hielo. Echa la mezcla del cóctel que preparamos anteriormente. Por último, vierte la granadina sin mezclar para que caiga al fondo del vaso. Puedes decorar el cóctel con rodajas de naranja y una cereza.",
+        "srcImagen": "img_TequilaSunrise"
+    },
+    {
+        "nombre": "Mojito Tradicional",
+        "nivelDificultad": "&#10048",
+        "alcohol": "ron blanco",
+        "preparacion": "En un vaso, mezclar las hojitas de menta con el jugo de limón y el azúcar. Agregar el ron junto con los cubos de hielo. Luego, echar el agua mineral y revolver. Decorar con una ramita de menta y una rodaja de limón.",
+        "ingredientes": ["¼ ron blanco", "½ limón", "1 cucharada de azúcar", "½ taza de agua con gas", "10 hojas de menta fresca"],
+        "srcImagen": "img_Mojito"
+    },
+    {
+        "nombre": "Mojito Frutos rojos",
+        "nivelDificultad": "&#10048",
+        "alcohol": "ron blanco",
+        "preparacion": "MUELE en un vaso los frutos rojos con el azúcar y la menta. AGREGA el jugo de limón y el ron. RELLENA con hielos y termina con agua mineral. Tip: decora con unas rodajas de limón y hojas de menta o hierbabuena.",
+        "ingredientes": ["¼ ron blanco", "10 hojas de menta fresca", "½ limón", "1 cucharada de azúcar", "½ taza de agua con gas", "½ taza de frutos rojos"],
+        "srcImagen": "img_MojitoFrutos"
+    },
+    {
+        "nombre": "Piña Colada",
+        "nivelDificultad": "&#10048",
+        "alcohol": "ron blanco",
+        "preparacion": "MEZCLA todos los ingredientes en la licuadora. SIRVE en vasos altos y decora con un trozo de piña y cerezas.",
+        "ingredientes": ["1 ½ taza de ron blanco", "350 mililitros de crema de coco", "1 litro de jugo de piña", "hielo"],
+        "srcImagen": "img_PinaColada"
+    },
+    {
+        "nombre": "Daiquiri",
+        "nivelDificultad": "&#10048",
+        "alcohol": "ron blanco",
+        "preparacion": "Combina los ingredientes excepto la lima para decorar dentro de una coctelera con cubos de hielo. Agita muy bien por unos segundos para que la mezcla se enfríe con el hielo. Cuela (lo ideal es una coctelera que tenga como opción una tapita estilo colador) y sirve en un vaso o copa de vidrio (si el vaso está refrigerado mejor) que contenga hielo triturado (3/4 del vaso). Decora el vaso con una rodaja de lima.",
+        "ingredientes": ["50 ml ron blanco", "25 ml zumo de lima", "1 cucharada de azúcar", "hielo"],
+        "srcImagen": "img_Daiquiri"
+    },
+    {
+        "nombre": "Mai Tai",
+        "nivelDificultad": "&#10048 &#10048",
+        "alcohol": "ron oscuro",
+        "preparacion": "Llenar una coctelera hasta la mitad con hielo picado. Añadir el ron, el zumo de lima, el licor de naranja, el orgeat y el sirope simple Tapar y agitar bien, unos 30 segundos. Verter a partes iguales en dos vasos y completar con más hielo picado si es necesario. Adornar con ramitas de menta y lima, y servir.",
+        "ingredientes": ["2 onzas ron oscuro", "2 onzas de ron blanco", "2 onzas zumo de lima fresco", "1 onza Licor de naranja Grand Marnier o Cointreau", "1 onza sirope", "½ onza jarabe", "Menta fresca y/o lima para decorar"],
+        "srcImagen": "img_MaiTai"
+    },
+    {
+        "nombre": "Blue Lagoon",
+        "nivelDificultad": "&#10048",
+        "alcohol": "vodka",
+        "preparacion": "Agrega hielo. Para comenzar, llene su coctelera hasta la mitad con hielo. Agrega los ingredientes. A continuación, agregue 1 onza de vodka y blue curacao, así como 4 onzas de limonada y agite hasta que se enfríe. Colar la mezcla en un vaso huracán lleno de hielo fresco. Decorar con un twist de limón (o naranja), cereza marrasquino o una ramita fresca de albahaca si lo desea. Sirva con una pajita y disfrute mientras está frío.",
+        "ingredientes": ["1 onza de vodka", "1 onza de curacao azul", "4 onzas de limonada", "1 rueda de limón para decorar", "1 marrasquino alegre para decorar"],
+        "srcImagen": "img_BlueLagon"
+    },
+    {
+        "nombre": "Sex on the Beach",
+        "nivelDificultad": "&#10048",
+        "alcohol": "vodka",
+        "preparacion": "Llena un vaso o copa flauta con cubitos de hielo, añade todos los ingredientes y remueve para mezclar bien. Para decorar, corta la naranja fresca en disco o también puede ser la piel en twist. Puedes hacerlo en coctelera con el mismo procedimiento.",
+        "ingredientes": ["45 ml. vodka", "15 ml. licor de durazno", "45 ml. zumo de arándanos rojos", "45 ml. zumo de naranja", "1 naranja para decorar"],
+        "srcImagen": "img_SexOnTheBeach"
+    },
+    {
+        "nombre": "Caipirinha",
+        "nivelDificultad": "&#10048",
+        "alcohol": "cachaca",
+        "preparacion": "Coloca un cuarto de lima en cada uno de los 4 vasos para whiskey. Tritura las limas con una cuchara de madera o con un mortero. Agrega 2 cucharadas de azúcar en cada vaso; remueve hasta que se disuelva el azúcar. Agrega el ron; llena cada uno de los vasos con hielo.",
+        "ingredientes": ["4 limas pequeñas, lavadas y cortadas en cuartos", "¼ de taza de azúcar", "2 a 3 onzas de cachaça (cachaza) o ron blanco", "Hielo triturado o cubos chicos"],
+        "srcImagen": "img_Caipirinha"
+    },
+    {
+        "nombre": "Whiskey Sour",
+        "nivelDificultad": "&#10048",
+        "alcohol": "whisky",
+        "preparacion": "Añade en una coctelera el whisky, zumo de limón, clara de huevo y azúcar. Agita vigorosamente la coctelera unos 10 segundos sin ningún hielo. Este paso se llama dry shaking, donde creamos la espuma de la clara de huevo. Añade unos hielos a la mezcla y agítala otra vez unos 10 segundos. Cuela el Whisky Sour en dos copas de whisky con hielos.",
+        "ingredientes": ["45 ml de Whisky", "30 mL de zumo de limón", "2 cucharadas de azúcar", "Clara de 1 huevo", "Piel de una naranja para decorar", "Hielos"],
+        "srcImagen": "img_WhiskeySour"
+    },
+    {
+        "nombre": "Cosmopolitan",
+        "nivelDificultad": "&#10048 &#10048",
+        "alcohol": "vodka",
+        "preparacion": "Sugerimos preparar el zumo de lima y de arándanos en casa, pero si no quieres hacerlo puedes comprarlos ya preparados. Coloca unos cubos de hielo en la copa para el cóctel, luego añade el vodka, seguidamente el licor triple seco, y los zumos de lima y de arándanos. Agita muy bien la bebida usando tu coctelera y luego sirve en la copa seleccionada. Lo ideal es añadir un toque cítrico que intensifique los sabores y que permita decorar, puede ser un trocito de lima.",
+        "ingredientes": ["40 ml de vodka blanco", "15 ml de licor Triple Seco", "30 ml de zumo de lima", "30 ml de zumo de arándanos", "Hielo y copa para cóctel"],
+        "srcImagen": "img_Cosmopolitan"
+    }
+]
